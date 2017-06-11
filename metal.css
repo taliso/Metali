@@ -44,6 +44,50 @@
     width:10%;
     border: solid 1px black;
 }
+#t_kol4 {
+    width:10%;
+    border: solid 1px black;
+}
+#t_kol5 {
+    width:70%;
+    border: solid 1px black;
+}
+#t_kol6 {
+    width:10%;
+    border: solid 1px black;
+}
+
+#cenas_t_kol1 {
+    width:5%;
+    border: solid 1px black;
+}
+#cenas_t_kol2 {
+    width:6%;
+    border: solid 1px black;
+}
+#cenas_t_kol3 {
+    width:8%;
+    border: solid 1px black;
+}
+#cenas_t_kol4 {
+    width:10%;
+    border: solid 1px black;
+}
+#cenas_t_kol5 {
+    width:5%;
+    border: solid 1px black;
+}
+#cenas_t_kol6 {
+    width:10%;
+    border: solid 1px black;
+}
+#cenas_t_kol7 {
+    width:5%;
+    border: solid 1px black;
+}
+
+
+
 #alert {
     background: #f1a899;
     color: #731d09;

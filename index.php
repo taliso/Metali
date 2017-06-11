@@ -75,7 +75,7 @@ if (isset($_POST['parkl_add'])) {
 
             </div>
 			<div id="divView">
-                <?php include 'parklajumi.php'; ?>
+                <?php include 'cenas.php'; ?>
 
 			</div><!--divView    -->
 		</div><!--divForma    -->

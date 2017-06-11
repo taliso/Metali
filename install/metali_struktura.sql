@@ -33,7 +33,7 @@ CREATE TABLE `grupu_cenas` (
   `user_id` int(11) DEFAULT NULL,
   `user_create` varchar(45) DEFAULT NULL,
   `create_date` varchar(45) DEFAULT NULL,
-  `status` int(11) DEFAULT NULL,
+  `status` int(11) DEFAULT '1',
   PRIMARY KEY (`ID`),
   UNIQUE KEY `ID_UNIQUE` (`ID`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
@@ -140,4 +140,4 @@ CREATE TABLE `piem_par_transp` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-06-11 17:25:33
+-- Dump completed on 2017-06-11 19:43:39

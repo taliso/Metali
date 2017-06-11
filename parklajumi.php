@@ -42,7 +42,10 @@ $sparkl=sqltoarray(' * ','parklajumi',' status=1 ',$db)
     <table id="tabula_list">
         <?php foreach( $sparkl as $oneparkl ) { ?>
         <tr>
-            <td id="t_kol1"></span></td>
+            <td id="t_kol1">
+                <img id="tool" src="icons\application_edit.png" alt="" title="Labot ierakstu" >
+                <img id="tool" src="icons\cancel.png" alt="" title="Dzēst ierakstu" >
+            </td>
             <td id="t_kol1"><span id="tab_list"><?php echo $oneparkl['ID']; ?></span></td>
             <td id="t_kol2"><span id="tab_list"> <?php echo $oneparkl['parklajums']; ?></span> </td>
             <td id="t_kol3"><span id="tab_list"> <?php echo $oneparkl['status']; ?> </td>
